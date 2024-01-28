@@ -71,5 +71,19 @@ $(document).ready(function() {
     }
   }
 
+   // Event listener for the search form
+   $('#search-form').submit(function(event) {
+    event.preventDefault();
+    const searchTerm = $('#search-input').val();
+
+    if (searchTerm) {
+      // Fetch weather data for the entered city
+      fetchWeatherData(searchTerm);
+
+      // Add the searched city to the history
+      addToHistory(searchTerm);
+    }
+  });
+
   
 });
