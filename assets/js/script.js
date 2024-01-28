@@ -85,5 +85,10 @@ $(document).ready(function() {
     }
   });
 
-  
+  // Event listener for the history list
+  $('#history').on('click', '.list-group-item', function() {
+    const selectedCity = $(this).text();
+    // Fetch weather data for the selected city
+    fetchWeatherData(selectedCity);
+  });
 });
