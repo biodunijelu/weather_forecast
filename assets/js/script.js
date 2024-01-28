@@ -91,4 +91,12 @@ $(document).ready(function() {
     // Fetch weather data for the selected city
     fetchWeatherData(selectedCity);
   });
+
+   // Function to add a searched city to the history
+   function addToHistory(city) {
+    const historyList = $('#history');
+
+    // Append the city to the history list
+    historyList.prepend(`<button type="button" class="list-group-item">${city}</button>`);
+  }
 });
