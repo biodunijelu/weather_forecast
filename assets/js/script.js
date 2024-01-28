@@ -40,6 +40,36 @@ $(document).ready(function() {
         },
       });
     }
+ // Function to update the UI with weather data
+ function updateUI(currentData, forecastData) {
+    const todaySection = $('#today');
+    const forecastSection = $('#forecast');
 
+    // Clear previous data
+    todaySection.empty();
+    forecastSection.empty();
 
+    // Update current weather UI
+    todaySection.html(`
+      <h2>${currentData.name}</h2>
+      <p>Date: ${dayjs().format('MMMM D, YYYY')}</p>
+      <p>Temperature: ${currentData.main.temp.toFixed(2)}°C</p>
+      <p>Humidity: ${currentData.main.humidity}%</p>
+      <p>Wind Speed: ${currentData.wind.speed} m/s</p>
+    `);
+
+    // Update forecast UI
+    for (let i = 0; i < forecastData.list.length; i += 8) {
+      const forecastItem = forecastData.list[i];
+      forecastSection.append(`
+        <div class="col-md-2">
+          <p>Date: ${dayjs(forecastItem.dt_txt).format('MMMM D, YYYY')}</p>
+          <p>Temperature: ${forecastItem.main.temp.toFixed(2)}°C</p>
+          <p>Humidity: ${forecastItem.main.humidity}%</p>
+        </div>
+      `);
+    }
+  }
+
+  
 });
