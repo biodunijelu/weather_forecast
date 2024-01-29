@@ -87,3 +87,7 @@ Contributions are welcome! If you have any enhancements or bug fixes, feel free 
 ## Deployment
 
 Deployment: `Deploy url [https://biodunijelu.github.io/weather_forecast/]`
+
+## License
+
+This project is licensed under the [bootcampspot]. 
