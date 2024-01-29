@@ -79,3 +79,7 @@ OpenWeatherMap API - Used for fetching weather data based on city coordinates
 (https://github.com/biodunijelu/weather_forecast/blob/main/assets/images/mockup_design.png)
 
 ```
+
+## Contributing
+
+Contributions are welcome! If you have any enhancements or bug fixes, feel free to submit a pull request.
