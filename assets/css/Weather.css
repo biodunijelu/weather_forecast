@@ -53,8 +53,14 @@ body {
 
   #form-heading {
     font-size: 1.5rem;
+    color: #000 !important; 
   }
-  
+  #form-heading h2{
+    color: #000 !important; 
+  }
+  h2 #form-heading{
+    color: #000 !important; 
+  }
   .form {
     margin-bottom: 15px;
   }
@@ -86,13 +92,16 @@ body {
   
   #today {
     background-color: #fff;
-    padding: 15px;
-    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-top: 5px;
+    /* border-radius: 8px; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
   #today h2{
 color: #000;
+margin-top: 2px !important;
 
   }
   .forecast h2{
@@ -132,7 +141,48 @@ color: #000;
   /* #forecast .col-md-2 {
     margin-bottom: 15px;
   } */
- 
+ /* Add your custom styles here */
+
+/* Style for form control input */
+.form-control {
+    width: 90%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #000;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  /* Hover and focus styles for form control input */
+  .form-control:hover {
+    border-color: #adb5bd;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  /* Style for the search button */
+  .search-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Hover and focus styles for the search button */
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-button:focus {
+    background-color: #0056b3;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+  
   /* Responsive Styles */
   
   @media (max-width: 767px) {
