@@ -8,7 +8,7 @@ The Weather Dashboard is a web application that allows users to check the curren
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Apis](#apis)
+- [APIs Used](#apis_used)
 - [Technologies ](#technologies )
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
