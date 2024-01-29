@@ -54,6 +54,7 @@ $(document).ready(function() {
       todaySection.html(`
         <h2>${currentData.name}</h2>
         <p>Date: ${dayjs().format('MMMM D, YYYY')}</p>
+        <i class="wi wi-owm-${currentData.weather[0].id}"></i> 
         <p>Temperature: ${currentData.main.temp.toFixed(2)}°C</p>
         <p>Humidity: ${currentData.main.humidity}%</p>
         <p>Wind Speed: ${currentData.wind.speed} m/s</p>
@@ -63,10 +64,14 @@ $(document).ready(function() {
       for (let i = 0; i < forecastData.list.length; i += 8) {
         const forecastItem = forecastData.list[i];
         forecastSection.append(`
-          <div class="col-md-2">
+        <div class="card">
+          <div class="col-md-2X">
             <p>Date: ${dayjs(forecastItem.dt_txt).format('MMMM D, YYYY')}</p>
+            <i class="wi wi-owm-${forecastItem.weather[0].id}"></i>
             <p>Temperature: ${forecastItem.main.temp.toFixed(2)}°C</p>
+            <p>Wind Speed: ${forecastItem.wind.speed} m/s</p>
             <p>Humidity: ${forecastItem.main.humidity}%</p>
+          </div>
           </div>
         `);
       }

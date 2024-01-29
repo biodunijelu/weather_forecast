@@ -84,18 +84,40 @@ body {
     background-color: #f8f9fa;
   }
   
-  #today,
-  #forecast {
+  #today {
     background-color: #fff;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  
-  #forecast .col-md-2 {
-    margin-bottom: 15px;
+  #forecast {
+    background-color: #fff;
+    display: flex; /* Set the forecast section as a flex container */
+    align-items: center; /* Center-align items horizontally within the container */
+    gap: 15px; /* Add some space between child elements */
+   
   }
-  
+  .card {
+    /* border: 1px solid #ddd; */
+    border: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 200px;
+    display: flex;
+    flex-direction: column; /* Set each card as a flex container with a column direction */
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #2d3e50;
+    color: #fff;
+  }
+  /* Hover effect - scale up the card on hover */
+.card:hover {
+    transform: scale(1.05);
+  }
+  /* #forecast .col-md-2 {
+    margin-bottom: 15px;
+  } */
+ 
   /* Responsive Styles */
   
   @media (max-width: 767px) {
