@@ -21,3 +21,11 @@ The Weather Dashboard is a web application that allows users to check the curren
 - Display 5-day forecast with date, weather icon, temperature, and humidity.
 - Search history keeps track of previously searched cities.
 - Responsive design for a seamless experience on different devices.
+
+## Getting Started
+
+### Prerequisites
+
+- Web browser (Chrome, Firefox, Safari, etc.)
+
+### Installation
