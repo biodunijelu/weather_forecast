@@ -3,7 +3,7 @@
 $(document).ready(function() {
     // Function to fetch weather data based on city name
     function fetchWeatherData(city) {
-      const apiKey = '4b1b9458d2a70de78cccfab1ee47d0bd';
+      const apiKey = '6f838f3fcec83946c787151d075258da';
       const weatherApiUrl = 'https://api.openweathermap.org/data/2.5/weather';
       const forecastApiUrl = 'https://api.openweathermap.org/data/2.5/forecast';
   

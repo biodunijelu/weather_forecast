@@ -1,5 +1,6 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #f8f9fa; /* Bootstrap background color */
+    color: #495057; /* Bootstrap text color */
   }
   
   .container-fluid {
@@ -7,12 +8,17 @@ body {
   }
   
   .weather-header {
-    background-color: #343a40;
+    background: linear-gradient(to right, #007bff, #0056b3); /* Blue gradient background */
+    padding: 20px; /* Add padding to the header */
+    text-align: center; /* Center-align text */
+    border: 2px solid #0056b3;
   }
   
   .weather-header h1 {
-    font-size: 2rem;
-    margin-bottom: 0;
+    margin: 0; /* Remove margin for the h1 element */
+    font-size: 2em; /* Adjust font size */
+    color: #fff; /* White text color */
+    font-weight: bold;
   }
   
   #form-heading {
