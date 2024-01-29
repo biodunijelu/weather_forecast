@@ -90,6 +90,21 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
+
+  #today h2{
+color: #000;
+
+  }
+  .forecast h2{
+    color: #000; 
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
   #forecast {
     background-color: #fff;
     display: flex; /* Set the forecast section as a flex container */
