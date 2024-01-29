@@ -52,8 +52,8 @@ $(document).ready(function() {
   
       // Update current weather UI
       todaySection.html(`
-        <h2>${currentData.name}</h2>
-        <p>Date: ${dayjs().format('MMMM D, YYYY')}</p>
+        <h2>${currentData.name} (${dayjs().format('MMMM D, YYYY')})</h2>
+       
         <i class="wi wi-owm-${currentData.weather[0].id}"></i> 
         <p>Temperature: ${currentData.main.temp.toFixed(2)}°C</p>
         <p>Humidity: ${currentData.main.humidity}%</p>
