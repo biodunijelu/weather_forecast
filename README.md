@@ -1,1 +1,3 @@
-# weather_forecast
+# Weather Dashboard
+
+## Overview
