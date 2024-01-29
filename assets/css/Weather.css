@@ -3,8 +3,38 @@ body {
     color: #495057; /* Bootstrap text color */
   }
   
-  .container-fluid {
-    padding: 15px;
+
+  /* Container styles */
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  /* Row styles */
+  .row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  /* Left column styles */
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  
+  /* Right column styles */
+  .col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  
+  /* Common styles for both columns */
+  .pb-3 {
+    padding-bottom: 1rem;
   }
   
   .weather-header {
@@ -20,7 +50,7 @@ body {
     color: #fff; /* White text color */
     font-weight: bold;
   }
-  
+
   #form-heading {
     font-size: 1.5rem;
   }
