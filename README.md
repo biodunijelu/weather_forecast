@@ -62,3 +62,13 @@ cd weather_forecast
 ### APIs Used
 
 OpenWeatherMap API - Used for fetching weather data based on city coordinates
+
+### Technologies
+
+1. HTML
+2. CSS
+3. JavaScript
+4. jQuery
+5. Bootstrap
+6. Day.js (for date manipulation)
+7. Weather-icons CSS
