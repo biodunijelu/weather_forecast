@@ -14,3 +14,10 @@ The Weather Dashboard is a web application that allows users to check the curren
 - [Contributing](#contributing)
 - [Deployment](#deployment)
 - [License](#license)
+
+## Features
+
+- Search for a city and view current weather conditions.
+- Display 5-day forecast with date, weather icon, temperature, and humidity.
+- Search history keeps track of previously searched cities.
+- Responsive design for a seamless experience on different devices.
