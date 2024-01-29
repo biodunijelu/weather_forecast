@@ -58,3 +58,7 @@ cd weather_forecast
 3. View the weather details for the selected city.
 
 4. Click on a city in the search history to see its weather information again.
+
+### APIs Used
+
+OpenWeatherMap API - Used for fetching weather data based on city coordinates
