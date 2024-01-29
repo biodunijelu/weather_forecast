@@ -28,4 +28,23 @@ The Weather Dashboard is a web application that allows users to check the curren
 
 - Web browser (Chrome, Firefox, Safari, etc.)
 
+
 ### Installation
+
+1. Clone the repository:
+
+   ```bash
+
+   git clone https://github.com/biodunijelu/weather_forecast.git
+
+   ```
+
+2. Open the project folder:
+
+```md
+
+cd weather_forecast
+
+```
+
+3. Open index.html in your preferred web browser.
