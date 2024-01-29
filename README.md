@@ -48,3 +48,13 @@ cd weather_forecast
 ```
 
 3. Open index.html in your preferred web browser.
+
+### Usage
+
+1. Enter a city name in the search input field.
+
+2. Click the "Search" button to get the current weather and 5-day forecast.
+
+3. View the weather details for the selected city.
+
+4. Click on a city in the search history to see its weather information again.
