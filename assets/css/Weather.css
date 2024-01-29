@@ -76,17 +76,25 @@ body {
   }
   
   .list-group {
+   
     max-height: 300px;
     overflow-y: auto;
+   
   }
   
   .list-group-item {
+     width: 95%;
+      padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    background-color: #ccc;
+    margin-bottom: 10px;
     cursor: pointer;
-    border: none;
-    border-radius: 0;
+    /* border: none;
+    border-radius: 0; */
   }
   
   .list-group-item:hover {
+    
     background-color: #f8f9fa;
   }
   
