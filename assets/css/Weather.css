@@ -171,6 +171,10 @@ margin-top: 2px !important;
   .search-button {
     background-color: #007bff;
     color: #fff;
+    width: 95%;
+    margin-top: 12px;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
   }
   
   /* Hover and focus styles for the search button */
