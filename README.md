@@ -72,3 +72,10 @@ OpenWeatherMap API - Used for fetching weather data based on city coordinates
 5. Bootstrap
 6. Day.js (for date manipulation)
 7. Weather-icons CSS
+
+## Screenshots
+
+```md
+(https://github.com/biodunijelu/weather_forecast/blob/main/assets/images/mockup_design.png)
+
+```
